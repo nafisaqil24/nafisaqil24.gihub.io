@@ -1,0 +1,163 @@
+/* Importing Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
+body {
+    font-family: 'Dancing Script', cursive;
+    background-color: #fff0f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    background-color: #ff96af;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 4px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.navbar ul li {
+    margin: 0 20px;
+    background-color: #c1c1bf57;
+    padding: 8px;
+    display: block;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.navbar ul li :hover{
+    background-color: #ff5177;
+    padding: 15px;
+    border-radius: 20px;
+    height: 20px;
+    width: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section {
+    padding: 50px 0;
+}
+
+.section h2 {
+    margin-top: 0;
+    font-size: 2.5em;
+    color: #fff;
+}
+
+.section p{
+    color: #fff;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery img {
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control input,
+.form-control textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: #ff6f91;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.btn:hover {
+    background-color: #ff5177;
+}
+
+footer {
+    background-color: #ff6f91;
+    color: white;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer span {
+    color: #ffeb3b;
+}
+/* CSS untuk tombol */
+
+
+@media (max-width: 480px) {
+    /* Ubah ukuran font */
+    body {
+      font-size: 16px;
+    }
+    
+    /* Ubah tampilan header */
+    header {
+      padding: 10px 0;
+    }
+    
+    /* Ubah tampilan section */
+    .section {
+      padding: 20px 0;
+    }
+  }
